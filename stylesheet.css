@@ -1,0 +1,377 @@
+
+
+html{
+   
+    scroll-behavior: smooth;
+    line-height: 1.15;
+    
+}
+body{
+   /* font-family: 'Italianno', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Rouge Script', cursive;
+font-family: 'Sofia', cursive;
+font-family: 'Playfair Display', serif;*/
+font-size: 1rem;
+color: rgba(21, 21, 21, 0.8);
+
+
+
+}
+
+h2 ,h3, h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-weight: lighter;
+}
+.divider-img{
+    width: 140px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right,#ffa5a5,#c060a1,#7e2392 );
+}
+/*----header start here---*/
+.navbar{
+    
+    border-bottom: 1px solid whitesmoke;
+   background-color:#252525;
+   opacity: 0.7;
+  
+    
+}
+.nav-link{
+    color:white ;
+    font-size:1.1rem;
+   margin-right: 20px;
+   transition: .3s;
+   font-weight: bold;
+  
+   
+}
+.nav-link:hover{
+   border-bottom: 2px solid pink ;
+   color: rgb(245, 153, 169) ;
+   transform: scale(1.1);
+}
+
+
+.carousel-item{
+    height: 100vh;
+}
+.carousel-img-1{
+    background: url("pic/2.jpg") center top  ;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+    
+}
+
+.carousel-img-2{
+    background: url("pic/4.jpg") center top  ;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+.carousel-img-3{
+    background: url("pic/1.jpg") center top  ;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+.banner-container{
+    background-color: rgba(128, 48, 88, 0.3);
+    height: 100vh;
+}
+
+.banner-content{
+   
+   padding-top: 70px;
+   
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    
+  
+}
+.banner-content h1{
+    color: white;
+}
+.banner-content p{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+.banner-content i{
+    color: #8b094f;
+    
+}
+/*----header end here---*/
+
+/*----description start---*/
+
+#description{
+    padding: 70px;
+    
+}
+
+
+/*----description end---*/
+
+/*----What We Offer start here---*/
+
+.offer-title{
+    padding: 10px;
+}
+
+#Offer-card .card{
+   
+    transition: .4s;
+}
+
+#Offer-card .card:hover{
+  transform: scale(0.9,0.9);
+  box-shadow: 2px 2px 20px gray ;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    
+    transition: all 1.4s ease;
+}
+.inner img:hover{
+    transform: scale(1.4);
+    <i class="fas fa-angle-double-up"></i>
+}
+#Offer-card .card-body a{
+    color:black;
+}
+#Offer-card .card-body a:hover{
+    color:rgb(245, 140, 158);
+}
+#Offer-card .card-text{
+    color: rgb(238, 128, 146);
+}
+.card-img{
+    
+}
+
+/*----What We Offer end here---*/
+
+
+/*------plan your wedding start here-----*/
+
+.accordion-step{
+    background-color:   #ffa5a5 ;
+
+}
+
+.accordion-step a{
+    color: rgb(238, 212, 212);
+    text-decoration: none;
+}
+.accordion-step a:hover{
+    color:white;
+}
+
+.accordion-text{
+    background-color: white;
+}
+.accordion-text h1{
+    font-size: 3rem;
+    background-color: #e9e8e8;
+}
+.accordion-text a{
+    color: #ffa5a5 ;
+    
+}
+
+/*------plan your wedding end here-----*/
+
+
+/*-----<!-------Our Portfolio start here------>*/
+.Portfolio-img img{
+    height: 200px;
+}
+
+/*-----<!-------Our Portfolio start here------>*/
+
+
+/*------Pricing plan start here-----*/
+#Pricing-card .pln-list{
+    list-style-type: none;
+    text-align: justify;
+    
+}
+
+#Pricing-card i{
+    color:  #ffa5a5;
+}
+  .middle-card{
+    background-image: linear-gradient(to right,#ffa5a5,#c060a1,#7e2392 );
+    color: white;
+}
+
+/*------Pricing plan end here-----*/
+
+/*----Let’s Create the Best Wedding for You start here--*/
+#Create{
+    background-image:url("pic/create-img.jpg");
+    background-size: cover;
+    
+    background-position: center;
+    
+}
+
+.create-container{
+    height: 100vh;
+    background-color: rgba(66, 66, 66, 0.4);
+}
+
+.create-content h1{
+    color: white;
+}
+
+#Create .btn{
+    color: white;
+  background-color: pink ;
+  padding: 14px 22px;
+  border-radius: 9px;
+}
+.create-content i{
+    color:rgb(248, 151, 167);
+    
+}  
+
+/*--Let’s Create the Best Wedding for You end here--*/
+
+/*---footer start here------*/
+#footer .input{
+background-color: rgb(190, 188, 188);
+border-color: gray;
+border: outset;
+}
+#footer .btn{
+    width: 100%;
+}
+#footer p{
+    font-size: 20px;
+}
+#contact i{
+    color: rgb(238, 128, 146);
+}
+
+.social-icon i{
+    background-color: rgb(59, 59, 59);
+    margin: 10px;
+}
+.social-icon i:hover{
+    background-color: rgb(235, 135, 152) ;
+}
+
+/*---footer end here------*/
+
+
+/*-----------------------------About page style start here---------------------------------*/
+
+
+/*--- about banner start here--*/
+
+#about-banner{
+    background-image: url("pic/about-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    
+}
+.about-container{
+    height: 470px;
+    background-color: rgba(66, 66, 66, 0.4);
+}
+.about-contant a{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+ .hover-a:hover{
+    color: gray;
+}
+.about-contant i{
+ color:rgb(248, 183, 194);
+}
+
+/*--- about banner end here--*/
+
+/*----about agency start here---*/
+#agency{
+   text-align: justify;
+}
+#agency i{
+    color:pink;
+    
+}
+
+/*----about agency end here---*/
+
+
+
+
+/*-----------------------------About page style start here---------------------------------*/
+
+
+/*-----------------------------contact page style start here---------------------------------*/
+#contact .input{
+    background-color: rgb(241, 238, 238);
+    border-color: rgb(207, 207, 207);
+    border: outset;
+    height: 80px;
+    
+    }
+    #contact .btn{
+        width: 50%;
+        background-image: linear-gradient(to right,#ffa5a5,#c060a1,#7e2392 );
+    }
+    #contact p{
+        font-size: 20px;
+    }
+    #contact i{
+        color: rgb(238, 128, 146);
+    }
+
+
+/*-----------------------------contact page style end here---------------------------------*/
+
+
+@media(max-width:499px){
+    .banner-content h1{
+        
+            font-size: 2rem;
+       
+    }
+    .banner-content p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:499px){
+    .create-content h1{
+        
+            font-size: 2.2rem;
+       
+    }
+    .create-content p{
+        font-size: 1rem;
+    }
+}
+
+@media(width:768px){
+    p{
+        font-size: 1.4rem;
+    }
+}
